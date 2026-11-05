@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+
+# Large binary scans and heavy generated bundle exports (>50MB)
+*.pdf
+*Portable_Workbench.html
+Hackathon Store/scans/*.pdf
+Hackathon Store/mfp_inbox/*.pdf
+scans/*.pdf
+mfp_inbox/*.pdf
+
+# Local environment and secret credentials
+.env
+*.env
+.env.*
+scratch/
+.agents/
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

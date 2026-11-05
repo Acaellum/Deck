@@ -1,0 +1,182 @@
+{
+  "repository_version": "2.0.0-offline",
+  "templates": [
+    {
+      "template_id": "nnav45_daily_grid_xlsx",
+      "filename": "US_Navy_Deck_Log_Form_4_2600_Master.xlsx",
+      "format": "xlsx",
+      "title": "U.S. Navy Deck Log Tabular Master (Form N. Nav. 45 / 4-2600)",
+      "form_code": "N. Nav. 45 (4-2600)",
+      "expected_aspect_ratio": [
+        1.18,
+        1.38
+      ],
+      "orientation": "landscape_spread",
+      "structural_features": [
+        "left_24hr_20col_tabular_grid",
+        "middle_position_fuel_water_draft_mag_panels",
+        "right_lined_watch_remarks_page"
+      ],
+      "semantic_anchors": [
+        "ALL SHAFT AVERAGE REVOLUTIONS",
+        "BAROMETER HEIGHT IN INCHES",
+        "WEATHER BY SYMBOLS",
+        "MAGAZINE TEMPERATURES",
+        "FUEL",
+        "WATER",
+        "DRAFT",
+        "DRILLS AND EXERCISES"
+      ],
+      "description": "Primary Excel master template for daily 24-hour navigational, meteorological, fuel/water, draft, and magazine temperature logs."
+    },
+    {
+      "template_id": "nnav45_46_narrative_docx",
+      "filename": "US_Navy_Deck_Log_Narrative_Form_NNav45_46.docx",
+      "format": "docx",
+      "title": "U.S. Navy Deck Log Narrative & Watch Remarks Master (Form N. Nav. 45 / 46)",
+      "form_code": "N. Nav. 45 & N. Nav. 46 (4-2600 / 4-2601)",
+      "expected_aspect_ratio": [
+        1.18,
+        1.38
+      ],
+      "orientation": "landscape_spread",
+      "structural_features": [
+        "right_lined_watch_remarks_page",
+        "watch_headers_00_04_to_20_24",
+        "supports_diagonal_x_continuation_spread"
+      ],
+      "semantic_anchors": [
+        "REMARKS",
+        "00-04",
+        "04-08",
+        "08-12",
+        "12-16",
+        "16-20",
+        "20-24",
+        "COMMANDING",
+        "NAVIGATOR"
+      ],
+      "description": "Primary Word master template for daily watch-by-watch narrative remarks, continuation pages (with crossed-out left grids), officer signatures, and operational events."
+    },
+    {
+      "template_id": "nnav52_cover_docx",
+      "filename": "US_Navy_Deck_Log_Title_Cover_NNav52.docx",
+      "format": "docx",
+      "title": "U.S. Navy Deck Log Book Cover / Title Page (Form N. Nav. 52)",
+      "form_code": "N. Nav. 52 (4-2130)",
+      "expected_aspect_ratio": [
+        0.62,
+        0.78
+      ],
+      "orientation": "portrait_single",
+      "structural_features": [
+        "portrait_centered_title_typography",
+        "command_and_approval_signature_lines"
+      ],
+      "semantic_anchors": [
+        "DECK LOG BOOK",
+        "Form N. Nav. 52",
+        "Commanded by",
+        "Approved:"
+      ],
+      "description": "Master Word template for monthly Deck Log Book cover/title pages (Form N. Nav. 52)."
+    },
+    {
+      "template_id": "neng10_machinery_log_xlsx",
+      "filename": "US_Navy_Engineering_Machinery_Log_Form_NEng10_Master.xlsx",
+      "format": "xlsx",
+      "title": "U.S. Navy Daily Machinery Log Master (Form N. Eng. 10 / NAVSHIPS 135)",
+      "form_code": "N. Eng. 10 (NAVSHIPS 135)",
+      "expected_aspect_ratio": [
+        1.18,
+        1.45
+      ],
+      "orientation": "landscape_spread",
+      "structural_features": [
+        "hourly_propulsion_turbines_boilers_24col_grid",
+        "fuel_water_lube_engineering_ledgers",
+        "eoow_casualty_and_bell_book_ledgers"
+      ],
+      "semantic_anchors": [
+        "DAILY MACHINERY LOG",
+        "PORT SHAFT RPM",
+        "STBD SHAFT RPM",
+        "STEAM DRUM PRESSURE",
+        "SUPERHEAT",
+        "MAIN CONDENSER VACUUM",
+        "LUBE OIL PRESSURE",
+        "TURBO GENERATOR"
+      ],
+      "description": "Primary Excel master template for daily 24-hour naval machinery telemetry, boiler operations, turbine pressures, condenser vacuum, lube oil temperatures, and fuel/water consumption."
+    },
+    {
+      "template_id": "neng10_machinery_docx",
+      "filename": "US_Navy_Engineering_Machinery_Log_Form_NEng10.docx",
+      "format": "docx",
+      "title": "U.S. Navy Engineering Department Daily Report (Form N. Eng. 10)",
+      "form_code": "N. Eng. 10",
+      "expected_aspect_ratio": [
+        0.72,
+        0.88
+      ],
+      "orientation": "portrait_single",
+      "structural_features": [
+        "engineering_department_header_table",
+        "boiler_propulsion_telemetry_table",
+        "eoow_remarks_and_machinery_casualties"
+      ],
+      "semantic_anchors": [
+        "ENGINEERING DEPARTMENT",
+        "DAILY MACHINERY LOG",
+        "BOILER",
+        "SHAFT REVOLUTIONS",
+        "EOOW"
+      ],
+      "description": "Master Word template for daily engineering watch narratives, machinery casualties, boiler light-off times, and EOOW signature approvals."
+    },
+    {
+      "template_id": "neng11_bell_book_xlsx",
+      "filename": "US_Navy_Engineering_Bell_Book_Master.xlsx",
+      "format": "xlsx",
+      "title": "U.S. Navy Engineering Bell Book & Propulsion Log (Form N. Eng. 11)",
+      "form_code": "N. Eng. 11",
+      "expected_aspect_ratio": [
+        0.7,
+        0.9
+      ],
+      "orientation": "portrait_ledger",
+      "structural_features": [
+        "bell_order_chronological_columns",
+        "boiler_steam_pressure_superheat_columns"
+      ],
+      "semantic_anchors": [
+        "BELL BOOK",
+        "AHEAD STANDARD",
+        "AHEAD FULL",
+        "SUPERHEAT"
+      ],
+      "description": "Engineering propulsion bell book template for minute-by-minute bridge telegraph commands, shaft RPM counter readings, and throttleman logs."
+    },
+    {
+      "template_id": "nnav25_personnel_docx",
+      "filename": "US_Navy_Personnel_Muster_Report_NNav25.docx",
+      "format": "docx",
+      "title": "U.S. Navy Enlisted Personnel Report of Changes (Form N. Nav. 25)",
+      "form_code": "N. Nav. 25",
+      "expected_aspect_ratio": [
+        0.72,
+        0.85
+      ],
+      "orientation": "portrait_single",
+      "structural_features": [
+        "roster_name_service_number_columns"
+      ],
+      "semantic_anchors": [
+        "REPORT OF CHANGES",
+        "MUSTER ROLL",
+        "SERVICE NUMBER"
+      ],
+      "description": "Personnel muster and transfer report template (repository distractor / specialized personnel form)."
+    }
+  ]
+}
