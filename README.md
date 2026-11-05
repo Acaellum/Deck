@@ -6,9 +6,19 @@
 
 ## Why DECK Matters
 
-Millions of historical naval, maritime, and industrial records remain locked in fragile paper archives. Standard cloud OCR tools fail on degraded carbon copies and handwriting, strip spatial coordinates, and lack physical domain awareness. 
+Millions of historical naval, maritime, and industrial records remain locked in fragile paper archives. Standard cloud OCR tools fail on degraded carbon copies and handwriting, strip spatial coordinates, and lack physical domain awareness.
 
-DECK solves this with a field-ready platform that extracts tabular data, visually verifies source pixels with an optical reticle, and validates entries against naval propulsion physics — **without ever connecting to the internet**.
+Beyond archival preservation, DECK provides **operational data analytics** tailored directly for watchstanders and watch officers:
+
+- **For Watchstanders (Enlisted & Engineering Watch):**
+  - **Automated Watch Handoff Telemetry:** Eliminates manual, error-prone arithmetic during 4-hour watch rotations (burn rates for fuel oil, boiler feedwater consumption, generator electrical load, and miles steamed).
+  - **Early Warning Casualty Detection:** Instantly flags subtle steam pressure drops, feedwater imbalance, or anomalous RPM slip ratios before mechanical discrepancies escalate into full plant casualties.
+- **For Watch Officers (Officer of the Deck & Engineering Officer of the Watch):**
+  - **Single-Pane Command Visibility:** Unifies bridge deck logs, engine room machinery journals, and bell books into a single, time-synchronized operational timeline.
+  - **Mathematical Audit & Signature Integrity:** Validates that recorded speeds, course changes, and mass conservation balances reconcile mathematically with ground-truth physics prior to official daily sign-off and commanding officer review.
+  - **Fleet Performance & Transit Analytics:** Correlates shaft RPM against fuel consumption rates across various sea states and throttle orders, providing actionable insights into propulsion efficiency, propeller fouling, and long-term machinery wear.
+
+DECK delivers all of this on a field-ready platform — **without ever connecting to the internet**.
 
 ---
 
