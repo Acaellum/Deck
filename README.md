@@ -1,4 +1,4 @@
-# DECK — Historical Log Extraction & Offline Archival Intelligence
+# DECK
 
 > **DECK** (Document Extraction, Calibration & Knowledge-engine) transforms degraded historical deck logs, machinery journals, and bell books into audited, structured databases — built from the ground up for **100% offline, air-gapped deployment**.
 
