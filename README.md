@@ -38,11 +38,6 @@ DECK is built specifically for secure reading rooms, remote museum archives, and
 - **6 Intake Channels:** Batch PDFs (e.g., USS *Gilmer* DD-233), flatbed/phone scans, live document cameras, MFP network watch folders, direct keyboard tabular entry, and technical manual reference libraries.
 - **3.2× Optical Reticle Zoom:** Hover over or click any data cell to summon a calibrated optical reticle highlighting the exact raw scan pixels for instant human verification. Low-confidence reads ($<70\%$) are flagged automatically.
 - **Thermodynamic & Kinematic Audit Engine:** Validates daily mass conservation (fuel/feedwater balance: $\text{Received} - \text{Expended} = \Delta \text{Storage}$), verifies speed vs. shaft RPM slip curves, and flags casualties against Bureau of Ships (BUSHIPS) technical specifications.
-- **Master Historical Artifact Generation:** Generates populated, print-ready replicas of authentic US Navy forms:
-  - **Form 4-2600:** 24-Hour Deck Log (`.xlsx`)
-  - **Form NEng-10:** Machinery Log & Bell Book (`.xlsx` / `.docx`)
-  - **Form NNav-45 / 46 / 52:** Narrative Remarks & Title Covers (`.docx`)
-- **Minimalist Archival UI:** High-contrast slate and ivory theme with an 8-point mariner's compass motif. Free of distracting icons, animations, or generic AI artwork.
 
 ---
 
